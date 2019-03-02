@@ -10,6 +10,7 @@
     visibility: hidden;
     transition: all .3s;
 
+    
    
     
 
@@ -25,12 +26,21 @@
        overflow: hidden;
        opacity: 0;
        transform: translate(-50,-50) scale(.5);
+
+       
+    
     
     }
 
     &__left{
         width:33.33333%;
         display: table-cell;
+
+
+        
+        
+
+        
     }
 
     &__right{
@@ -55,6 +65,9 @@
 
         -webkit-hyphens: auto;
         hyphens: auto;
+
+       
+        
     }
 
     &:target{
